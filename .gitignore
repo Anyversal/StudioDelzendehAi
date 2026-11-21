@@ -1,8 +1,31 @@
+# Dependencies and generated output
 node_modules/
+
+# Build output
 build/
 dist/
 coverage/
-.DS_Store
-*.log
+*.tsbuildinfo
+
+# Tool caches and local test artifacts
+.vite/
+.turbo/
+.next/
+.cache/
+.parcel-cache/
+playwright-report/
+test-results/
+.firebase/
+.wrangler/
+
+# Local environment and secrets
 .env*
 !.env.example
+
+# Logs, temporary files, and OS/editor noise
+*.log
+*.log.*
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
